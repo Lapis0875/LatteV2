@@ -1,0 +1,27 @@
+{
+  "ping": {
+    "command": "핑",
+    "msg": "퐁! {latency}"
+  },
+  "get_user_info": {
+    "command": "유저정보",
+    "embed": {
+      "desc": "{member.display_name} 님의 프로필 정보입니다!",
+      "footer": "{ctx.author.name} 님이 요청하셨습니다!",
+      "fields": {
+        "username": "이름",
+        "member.status": "유저 상태",
+        "member.created_at": "Discord 가입 년도",
+        "member.joined_at": "서버 참여 날짜"
+
+
+      }
+    }
+  },
+  "get_user_activity": "",
+  "get_server_info": "",
+  "setalarm": "",
+  "stopalarm": "",
+  "get_invite_url": "",
+  "capture_bad": ""
+}

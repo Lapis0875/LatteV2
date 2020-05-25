@@ -1,0 +1,11 @@
+/legacy_cogs/*
+/test/
+get-pip.py
+/.idea/*
+/venv
+/config.json
+/configs
+!/configs/BASE-SERVER-CONFIG
+/resources
+!/resources/help/help_raw.json
+!/resources/lang

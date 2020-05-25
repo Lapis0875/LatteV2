@@ -1,0 +1,15 @@
+이 문서는 ./lang 경로에 위치한 번역 파일들의 작성법을 안내하는 문서입니다.
+./lang 폴더에는 라떼 봇의 각종 명령어와 안내 메세지들의 다양한 언어별 텍스트를 저장해둔 파일들이 저장됩니다. 이러한 번역본들은 봇이 실행될 때 불러와집니다.
+
+양식은 다음과 같습니다.
+파일경로 : ./lang/{언어코드}/{모듈명}.json
+번역 예시 :
+{봇 명령어 및 메세지 이름}={번역한 내용}
+
+번역한 내용에 명령어 실행 도중에 얻어낸 결과값들을 포함해야 할 경우, {변수명} 으로 사용해주세요. 각 명령어 별 사용 가능한 변수들은 ko_kr 언어 폴더에서 확인하실 수 있습니다
+
+
+This document is written for demonstrate how to write translation files in ./lang
+.lang file stores translated commands & notice message of Latte bot. This file is loaded during bot's init function.
+
+Latte bot uses
