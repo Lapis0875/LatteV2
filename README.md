@@ -21,6 +21,6 @@ discord.py 1.3.2
 멤버의 정보, 활동정보(Activity 받아오기), 서버 정보를 받아오거나 알람을 설정할 수 있어요. 혹은 봇에게 말을 걸거나 주사위를 굴려볼 수도 있습니다!
 
 # Contributers of this repository
-**khk4912** : fixed
+**khk4912** : fixed the issue "Logger print logs twice". Thanks!
 
 **HOREON** : Translate bot's commands and messages into Japanese. [WIP]
