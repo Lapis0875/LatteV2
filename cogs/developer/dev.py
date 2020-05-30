@@ -33,8 +33,8 @@ class Developer(commands.Cog):
         """
         if ctx.invoked_subcommand is None:
             dev_embed: discord.Embed = discord.Embed(
-                title="라테봇 개발자 정보",
-                description="라테봇을 개발하는 사람들의 정보입니다.",
+                title="라떼봇 개발자 정보",
+                description="라떼봇을 개발하는 사람들의 정보입니다.",
                 color=self.bot.latte_color
             )
             dev_embed.set_footer(text=f"{ctx.author.name} 님이 요청하셨습니다!", icon_url=ctx.author.avatar_url)
@@ -46,7 +46,7 @@ class Developer(commands.Cog):
                 dev_users += f"{dev_user.name}#{dev_user.discriminator}\n"
             dev_embed.add_field(name="개발자", value=dev_users)
             
-            dev_embed.add_field(name="라테봇 공식 커뮤니티", value=f'[바로가기]({self.bot.discord_base_invite + self.bot.official_community_invite} "공식 커뮤니티로 가는 포탈이 생성되었습니다 - 삐릿")')
+            dev_embed.add_field(name="라떼봇 공식 커뮤니티", value=f'[바로가기]({self.bot.discord_base_invite + self.bot.official_community_invite} "공식 커뮤니티로 가는 포탈이 생성되었습니다 - 삐릿")')
 
             await ctx.send(embed=dev_embed)
         else:
